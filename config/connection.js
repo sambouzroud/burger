@@ -14,13 +14,13 @@ if (process.env.JAWSDB_URL) {
 
 
 
-connection = mysql.createConnection({
+    connection = mysql.createConnection({
 	host: "localhost",
 	root: 3306,
 	user: "root",
 	password: "sam067581968",
 	database: "burgers_db" 
-});
+})};
 
 
 connection.connect(function(err) {
